@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .headpart{
+            background-color: gray;
+            height: 50px;
+            opacity: 0.7;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .box1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #text{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+           color: black;
+           font-size: 30px;
+        }
+        .img{
+          background-image: url(./girlimage.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 500px;
+          
+
+        }
+        .text1{
+            color: white;
+            float: right;
+            padding-top: 70px;
+            padding-right: 150px;
+            
+        }
+        a{
+            color: rgb(243, 129, 88);
+        }
+        span{
+            color:orangered;
+        }
+      #text2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+      }
+      #text3{
+        padding-top: 20px;
+        font-size: 15px;
+      }
+      a:hover{
+       color: black;
+        cursor: pointer;
+      }
+      #text4{
+       padding:15px 40px 15px 40px;
+       margin-top: 30px;
+       border-radius: 30px;
+       background-color: rgb(40, 38, 38);
+       color: white;
+       border: 3px solid white;
+       
+      }
+      #text4:hover{
+        background-color:white;
+        color:black;
+        cursor: pointer;
+      }
+    
+      .part2{
+        width: 100%;
+        height: 900px;
+      }
+    .one{
+        height: 30%;
+        background-color: orangered;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 150px;
+        
+    }
+    .b1{
+        background-color: white;
+        width: 250px;
+        height: 220px;
+        border-radius: 30px;
+    }
+    .b1d{
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+       gap: 20px;
+      padding: 20px;
+    }
+    .two{
+        height: 70%;
+        background-color: rgba(110, 103, 103, 0.347);
+        display: flex;
+        padding-top: 170px;
+
+    }
+    .part21{
+      
+        width: 620px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+        padding-left: 60px;
+    }
+    #icons{
+        display: flex;
+        gap: 20px;
+    }
+    .part22{
+       
+        width: 650px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+        padding-left: 60px;
+        
+
+    }
+    .form{
+        display: flex;
+        gap: 15px;
+       
+    }
+    h1,h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #but{
+        width:540px;
+        height: 40px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        background-color: rgb(244, 119, 73);
+        border: none;
+        color: white;
+    }
+    #but:hover{
+        background-color:black;
+        cursor: pointer;
+    }
+    input[type="text"]{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+    input[type="email"]{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+    label[for="name"]{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        font-size: 17px;
+        color: gray;
+    }
+    label[for="mail"]{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        color: gray;
+    }
+    label[for="fb"]{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        color: gray;
+    }
+    ::placeholder{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 17px;
+        font-weight:lighter;
+        
+    }
+    textarea[id="fb"]{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        border: none;
+        border-bottom: 2px solid gray;
+        font-size: 17px;
+        font-weight:lighter;
+        
+        
+    }
+    .part3{
+        height: 300px;
+        background-color: rgba(31, 29, 29, 0.927);
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:center;
+        padding: 40px 0px 40px 0px;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a[href^="link"]:hover{
+       color: gray;
+       text-decoration: none;
+       
+    }
+    a[href^="link"]{
+        color: rgb(240, 161, 133);
+    }
+  
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="headpart">
+        <div class="box1">
+            <div><small id="text">Logo</small></div>
+            <div><strong style='font-size:30px;'>&#9776;</strong></div>
+        </div>
+
+    </header>
+    <div class="img">
+       <div class="text1">
+       <div>
+        <p id="text2">Starting a new <br>project or want <br> to collaborate <br> with us?<span>Let's</span> <br><span>talk!</span></p>
+       </div>
+        <div>
+            <p id="text3">Image  from <a href="">freepik</a></p>
+            
+        </div>
+       <div>
+        <p ><button type="submit"id="text4">READ MORE</button></p>
+       </div>
+       </div>
+    </div>
+    <div class="part2">
+        <div class="one">
+            <div class="b1">
+                <div class="b1d">
+                    <i class="fa fa-map-marker" style="font-size:48px;color:red"></i>
+                    <h3>OUR MAIN OFFICE</h3>
+                    <p>SoHo 94 Broadway St New <br>York, NY 1001</p>
+                </div>
+            </div>
+            <div class="b1">
+                <div class="b1d">
+                    <i class="fa fa-phone" style="font-size:48px;color:red"></i>
+                    <h3>PHONE NUMBER</h3>
+                    <p>234-9876-5400 <br>888-0123-4567 (Toll Free)</p>
+                </div>
+            </div>
+            <div class="b1">
+                <div class="b1d">
+                    
+                    <i class="fa fa-fax" style="font-size: 48px;color: red;"></i>
+                    <h3>FAX</h3>
+                    <p>1-234-567-8900</p>
+                </div>
+            </div>
+            <div class="b1">
+                <div class="b1d">
+                    <i class="fa fa-envelope" style="font-size:48px;color:red"></i>
+                    <h3>EMAIL</h3>
+                    <a href="mailto:hello@theme.com">hello@theme.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="two">
+                <div class="part21">
+                    <h1>Get in touch</h1>
+                    <h3>We can ensure reliability, low cost fares and most <br>important, with safety and comfort in mind.</h3>
+                    <p>Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora <br>torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet <br> convallis erat.</p>
+                    <div id="icons">
+                        <i class="fa fa-facebook-f" style="font-size:48px;color:black"></i>
+                        <i class="fa fa-twitter" style="font-size:48px;color:black"></i>
+                        <i class="fa fa-instagram" style="font-size:48px;color:black"></i>
+                        <i class="fa fa-linkedin-square" style="font-size:48px;color:black"></i>
+
+                    </div>
+
+                </div>
+                <div class="part22">
+                   <div class="form">
+                    <div>
+                        <label for="mail">Email</label><br>
+                        <input type="email" id="mail" placeholder="Enter a valid email address" title="please fill out this field">
+                    </div>
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" placeholder="Enter your name" title="please fill out this field">
+                    </div>
+                   </div>
+                   <div>
+                    <label for="fb">Message</label><br>
+                    <textarea name="feedback" id="fb" cols="60" rows="10" title="please fill out this field">Enter your message</textarea>
+                   </div>
+                   <div>
+                    <input type="submit" id="but"/>
+                   </div>
+                </div>
+              
+        </div>
+    </div>
+    <div class="part3">
+          <div>
+            <p>Sample text. Click to select the text box. Click again or double <br>click to start editing the text.</p>
+          </div>
+          <div>
+           <p><a href="link">Free Website Templates </a>created with <a href="link">Offline Website Builder</a></p>
+          </div>
+    </div>
+    
+    
+</body>
+</html>
