@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color:white;
+            height: 70px;
+           display: flex;
+        }
+        #icons{
+         padding: 5px 0px 0px 10px;
+        }
+        .links{
+            display: flex;
+            padding-left: 20px;
+            justify-content:space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+        .link1{
+            display: flex;
+        }
+        .link1:hover{
+            background-color:rgb(118, 225, 118);
+            height: 100%;
+            padding-top: 24px;
+        }
+        .searchbar{
+            display: flex;
+            gap: 20px;
+            justify-content:space-evenly;
+            align-items: center;
+            padding-left: 20px;
+        }
+        .searchbox{
+            border: 2px solid black;
+            padding: 5px 2px 5px 10px;
+            border-radius: 15px;
+        }
+        #sicon{
+           padding-left: 60px;
+        }
+        .container{
+            background-color:black;
+            height: 60px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            
+        }
+        .content:hover{
+            background-color:gray;
+            height: 100%;
+            padding-top: 21px;
+          }
+        .rightpart1{
+            display: flex;
+            gap:27px;
+            padding-left: 170px;
+        }
+        .rightpart{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .register{
+           
+            padding-left: 30px;
+           
+        }
+       #but1{
+         border: 2px solid rgb(188, 236, 188);
+         padding: 10px 15px 10px 80px;
+         border-radius: 20px;
+         text-align: center;
+         background-color: rgb(194, 239, 194);
+
+         
+       }
+       #but2{
+        border: 2px solid green;
+        padding: 10px 15px 10px 15px;
+        border-radius: 20px;
+        position: absolute;
+        top:13px;
+        background-color: green;
+       
+       }
+       div #hover:hover{
+        /* background-color: gray; */
+        border-radius: 10px;
+        background-color: rgba(137, 43, 226, 0.133);
+       
+       
+       }
+    </style>
+       
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />  
+
+</head>
+<body>
+    <div class="navbar">
+        <div id="icons">
+            <img src="./icon.png" height="40px" width="40px">
+       </div>
+      <div class="links">
+        <div class="link1">
+            <div>
+                <a>Tutorials</a>
+            </div>
+            <div>
+                <p style="font-size: 20px;">&#9662;</p>
+            </div>
+        </div>
+        <div class="link1">
+            <div>
+                <a>Exercises</a>
+            </div>
+            <div>
+                <p style="font-size: 20px;">&#9662;</p>
+            </div>
+        </div>
+        <div class="link1">
+            <div>
+                <a>Certificates</a>
+            </div>
+            <div>
+                <p style="font-size: 20px;">&#9662;</p>
+            </div>
+        </div>
+        <div class="link1">
+            <div>
+                <a>Services</a>
+            </div>
+            <div>
+                <p style="font-size: 20px;">&#9662;</p>
+            </div>
+        </div>
+      </div>
+      <div class="searchbar">
+        <div class="searchbox">
+             <small>Search...</small>
+             <i class="fa fa-search" id="sicon"></i>
+          </div>
+          <div>
+            <span style='font-size:20px;'>&#9681;</span>
+          </div>
+      </div>
+
+      <div class="rightpart">
+          <div class="rightpart1">
+            <div id="hover">
+                <i class="bi bi-stars" style="font-size:22px; color:rgba(137, 43, 226, 0.471)" ></i>
+                <a>plus</a>
+            </div>
+            <div id="hover">
+                <i class="fas fa-code"style="font-size: 19px; color: rgba(137, 43, 226, 0.471)";></i>
+                <a>spaces</a>
+            </div>
+            <div id="hover">
+                <i class="fa fa-shopping-cart"style="font-size: 19px; color: rgba(137, 43, 226, 0.471)";></i>
+                <a>Getcertified</a>
+            </div>
+          </div>
+          <div class="buttons">
+           <div class="register">
+            <div id="but1">Log in</div>
+            <div id="but2">Signup</div>
+           </div>
+          </div>
+        </div>
+       
+      </div>
+       
+    
+
+     <div class="container">
+        <div class="content">HTML</div>
+        <div class="content">CSS</div>
+        <div class="content">JAVASCRIPT</div>
+        <div class="content">SQL</div>
+        <div class="content">PYTHON</div>
+        <div class="content">JAVA</div>
+        <div class="content">PHP</div>
+        <div class="content">HOW TO</div>
+        <div class="content">W3.CSS</div>
+        <div class="content">C.</div>
+        <div class="content">C++</div>
+        <div class="content">C#</div>
+        <div class="content">BOOTSTRAP</div>
+        <div class="content">REACT</div>
+        <div class="content">MYSQL</div>
+        <div class="content">JQUERY</div>
+        <div class="content">EXCEL</div>
+    </div> 
+</body>
+</html>

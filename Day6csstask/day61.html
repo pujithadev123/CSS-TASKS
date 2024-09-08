@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .flex-container{
+            width:900px;
+            height:700px;
+            background-color: blue;
+            margin-left: 200px;
+            margin-top: 40px;
+            border-radius: 2%;
+        }
+        .box1{
+           text-align: center;
+           padding-top:3%;
+           color: #ffffff;
+        }
+        #text1{
+           letter-spacing: 2px;
+           text-transform:uppercase;
+           font-family: Arial, Helvetica, sans-serif;
+           opacity: 0.8;
+        }
+        #text2{
+            line-height: 0.4;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flexbox{
+            display: flex;
+            padding-top: 150px;
+            justify-content: space-evenly;
+        }
+        .fbox1{
+            width: 250px;
+            height: 400px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+        }
+        #start{
+           font-family: Arial, Helvetica, sans-serif;
+           color: rgb(230, 230, 51);
+
+        }
+       #dollar{
+        font-size:25px;
+        color: blueviolet;
+        font-weight: bold;
+       }
+       #data{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.8;
+        color: gray;
+       }
+       ins{
+        font-weight:bold;
+        color:blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+
+       }
+       .fbox2{
+            background-color:white;
+            display: flex;
+            flex-basis:280px ;
+            height: 450px;
+            border-radius: 10px;
+            margin-top: -50px;
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+            
+          
+        }
+        #box2clr{
+            background-color: rgb(228, 168, 177);
+            text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           letter-spacing: 2px;
+           text-transform: uppercase;
+           color: blueviolet;
+           font-weight: bold;
+           padding: 20px 20px 20px 20px;
+           margin-top: -2.6rem;
+          }
+        .fbox3{
+            width: 250px;
+            height: 400px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+     }
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+         <div class="box1">
+           <p id="text1">start now</p>
+           <h1 id="text2">Your plan, your choice.</h1>
+         </div>
+         <div class="flexbox">
+           <div class="fbox1">
+             
+                <small style="font-size: 60px;" >&#128522;</small>
+             <h3 id="start">Starter</h3>
+             <span id="dollar">&#36;<span style="font-size: 40px;font-weight: bold;color: blue;font-family: Arial, Helvetica, sans-serif;"> 49</span></span>
+             <p id="data">No setup fee <br> unlimited products <br> Mobile storefront <br> Mobile app.</p>
+            <ins>Get Started</ins>
+             
+           </div>
+           <div class="fbox2">
+          <div id="box2clr">
+                <span>most popular</span>
+                </div>
+           <div>
+                <small style="font-size: 60px;" >&#128512;</small>
+                 <h3 id="start">Personal</h3>
+                 <span id="dollar">&#36;<span style="font-size: 40px;font-weight: bold;color: blue;font-family: Arial, Helvetica, sans-serif;"> 99</span></span>
+                 <p id="data">No setup fee <br> unlimited products <br> Mobile storefront <br> Mobile app.</p>
+                <ins style="background-color: blue;height: 30px;color: white;padding: 10px 30px;">Get Started</ins>
+            </div>
+           </div>
+           
+           <div class="fbox3">
+            <small style="font-size: 60px;" >&#128559;</small>
+            <h3 id="start">Team</h3>
+            <span id="dollar">&#36;<span style="font-size: 40px;font-weight: bold;color: blue;font-family: Arial, Helvetica, sans-serif;"> 229</span></span>
+            <p id="data">No setup fee <br> unlimited products <br> Mobile storefront <br> Mobile app.</p>
+           <ins>Get Started</ins>
+           </div>
+         </div>
+    </div>
+</body>
+</html>
